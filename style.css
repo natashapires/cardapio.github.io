@@ -1,0 +1,122 @@
+*  {
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #e9838c;
+}
+
+.content {
+    margin: 0 auto;
+    width: 0 auto;
+    height: 100%;
+
+}
+
+header {
+    background-color: #f3b8b9;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c6302c;
+    padding: 2em 0;
+    height: 50px;
+}
+
+
+.nav {width: 1070px;
+
+}
+
+.nav1 {
+    float:left;
+    margin-top: 10px;
+}
+
+.nav3 {
+    float:left;
+}
+
+
+.nav2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+   
+}
+
+
+.onepiece {
+    font-size: 100px;
+    text-align: center;
+    margin: 50px;
+}
+
+.grid-container  {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1070px;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.grid-item {
+    width: 413px;
+    height: auto;
+    background-color: #f3b8b9;   
+    padding: 40px;
+    margin:20px;
+   }
+
+img {
+    width: 405px;
+    height: 205px;
+    border: 4px solid #c6302c;
+}
+
+.produto {
+    margin-top: 20px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.ingre {
+    margin-top: 20px; 
+    text-align: justify;
+    color: #000;
+}
+
+.preco{
+    float:left;
+    width: 60px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: #f3b8b9;
+    padding: 10px 10px 10px 0px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.comprar {
+    float:right;
+    width: 60px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #c6302c;
+    padding: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #c6302c;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    padding: 2em 0;
+    margin-top: 50px;
+}
